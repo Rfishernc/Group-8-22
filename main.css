@@ -1,0 +1,57 @@
+body {
+    background-color: cornsilk;
+}
+
+.productContainer {
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.productCard {
+    width: 30%;
+    background-color: darkslategrey;
+    margin: 1%;
+    box-shadow: 10px 10px 5px grey;
+    
+}
+
+.image_ProductCard {
+    max-width: 75%;
+    max-height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.avail_ProductCard {
+    background-color: darkgrey;
+    text-align: center;
+    color: yellow;
+}
+
+.productTitle {
+    text-align: center;
+    font-size: x-large;
+    border: solid 1px lightblue;
+}
+
+.section3, .section2 {
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.size_Specs, .weight_Specs, .low_Pricing, .med_Pricing, .high_Pricing {
+    line-height: .2;
+}
+
+.footer_Specs {
+    font-size: small;
+}
+
+.description_ProductCard {
+    padding: 0 10px;
+}
