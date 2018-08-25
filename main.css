@@ -12,6 +12,7 @@ body {
 }
 
 .productCard {
+    position: relative;
     width: 30%;
     background-color: darkslategrey;
     margin: 1%;
@@ -37,6 +38,7 @@ body {
     text-align: center;
     font-size: x-large;
     border: solid 1px lightblue;
+    -webkit-margin-before: 0;
 }
 
 .section3, .section2 {
@@ -54,4 +56,12 @@ body {
 
 .description_ProductCard {
     padding: 0 10px;
+}
+
+.soldout {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    max-width: 90%;
+    margin-top: 5px;
 }
