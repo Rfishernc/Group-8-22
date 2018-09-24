@@ -8,7 +8,6 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    
 }
 
 .productCard {
@@ -17,15 +16,14 @@ body {
     background-color: darkslategrey;
     margin: 1%;
     box-shadow: 10px 10px 5px grey;
-    
 }
 
 .image_ProductCard {
     max-width: 75%;
     max-height: 200px;
-    display: block;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
 }
 
 .avail_ProductCard {
